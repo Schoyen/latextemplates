@@ -8,4 +8,4 @@ mkdir -p $latex_package_path
 
 filename="$current_directory.sty"
 echo "Symlinking file $filename to $latex_package_path/$filename"
-ln $filename $latex_package_path/$filename
+ln -f $filename $latex_package_path/$filename
