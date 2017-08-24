@@ -18,3 +18,7 @@ following package in the preamble of your document
 ```latex
 \usepackage{livenotes}
 ```
+
+## Compilation
+As the current template uses the package `tikz-feynman` one should compile with
+`lualatex` instead of `pdflatex`.
