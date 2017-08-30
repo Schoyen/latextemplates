@@ -25,7 +25,7 @@
 \usepackage{tikz-feynman}
 
 
-\newcommand{\vecbf}{\mathbf}
+\newcommand{\vf}{\mathbf}
 \newcommand{\fourvec}[1]{\underbar{$\mathbf{#1}$}}
 \newcommand{\me}{Øyvind Sigmundson Schøyen}
 
@@ -41,8 +41,8 @@
 \newcommand{\cL}{\mathcal{L}}
 % New command for the Hamiltonian density
 \newcommand{\cH}{\mathcal{H}}
-\newcommand{\tpl}[1]{\tensor{\partial}{_#1}}
-\newcommand{\tpu}[1]{\tensor{\partial}{^#1}}
+% Fast macro or partial differential tensors
+\newcommand{\tpl}[1]{\tensor{\partial}{_#1}} % Lower
+\newcommand{\tpu}[1]{\tensor{\partial}{^#1}} % Upper
+% Fast macro for tensors
 \newcommand{\te}[1]{\tensor{#1}}
-
-% TODO: Create an 'Example'-environment
