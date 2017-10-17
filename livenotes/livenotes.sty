@@ -29,8 +29,12 @@
 \usepackage{slashed}
 
 
+% Macro for latin-letter vectors
 \newcommand{\vf}{\mathbf}
+% Macro for greek-letter vectors
+\newcommand{\vfg}{\boldsymbol}
 \newcommand{\fourvec}[1]{\underbar{$\mathbf{#1}$}}
+% Lazy author macro
 \newcommand{\me}{Øyvind Sigmundson Schøyen}
 
 % Fast macro for real-numbers R
@@ -45,7 +49,7 @@
 \newcommand{\cL}{\mathcal{L}}
 % New command for the Hamiltonian density
 \newcommand{\cH}{\mathcal{H}}
-% Fast macro or partial differential tensors
+% Fast macro for partial differential tensors
 \newcommand{\tpl}[1]{\tensor{\partial}{_#1}} % Lower
 \newcommand{\tpu}[1]{\tensor{\partial}{^#1}} % Upper
 % Fast macro for tensors
@@ -54,7 +58,7 @@
 \newcommand{\com}[2]{\left[#1, #2\right]}
 \newcommand{\acom}[2]{\left\{#1, #2\right\}}
 
-% Macro for writing auto-sized paranthesis, brackets and braces
+% Macros for writing auto-sized paranthesis, brackets and braces
 \newcommand{\para}[1]{\left(#1\right)}
 \newcommand{\brak}[1]{\left[#1\right]}
 \newcommand{\brac}[1]{\left\{#1\right\}}
